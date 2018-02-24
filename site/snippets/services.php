@@ -5,7 +5,7 @@
   <div class="contenteiner services__container">
     <div class="columns col-gapless">
       <?php foreach ($data->children()->visible() as $service) : ?>
-        <div class="col-3 service">
+        <div class="col-4 service">
           <div class="service__border">
             <div class="service__icon" data-scroll="<?= $service->dirname() ?>" style="background-image: url(<?= $service->coverimage()->toFile()->url() ?>)">
 
@@ -26,7 +26,7 @@
             <div class="image" style="background-image:url(<?php echo thumb($service->coverimage()->toFile(), array('width' => 480, 'height' => 300))->url() ?>)"></div>
           </div><!-- details image -->
 
-          <div class="col-7 details__desc">
+          <div class="col-6 col-mx-auto details__desc">
             <h2 class="desc__title"><?= $service->title()->tohtml() ?></h2>
             <div class="divider text-center" data-content="DETALJI"></div>
             <details class="accordion desc__details text-justify" >
@@ -43,20 +43,20 @@
                 <?php endif ?>
               </div>
             </details><!-- accordion -->
-
+              <?php $images = $service->pictures()->yaml() ?>
+            <?php if ($images): ?>
             <div class="desc__gallery">
-              <?php $pictureSize = sizeof($service->pictures()->yaml()) ?>
-              <?php echo($pictureSize) ?>
-              <?php foreach ($service->pictures()->yaml() as $picture) : ?>
-                  <?php if ($img = $service->image($picture)) : ?>
-                  <a class="gallery__item"
-                     href="<?= $img->url() ?>"
-                      style="background-image:url(<?php echo thumb($img, array('width' => 150, 'height' => 70))->url() ?>)">
-                  </a>
-                  <?php endif ?>
-              <?php endforeach ?>
-             
+              
+                <?php foreach ($images as $picture) : ?>
+                    <?php if ($img = $service->image($picture)) : ?>
+                    <a class="gallery__item"
+                       href="<?= $img->url() ?>">
+                        <?php echo $img->thumb(array('width' => 170, 'height' => 80, 'crop' => true)); ?>
+                    </a>
+                    <?php endif ?>
+                <?php endforeach ?>
             </div><!-- desc gallery -->
+            <?php endif ?>
 
           </div><!-- details desc -->
 
