@@ -1,0 +1,147 @@
+.footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  transform: translateY(87%);
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 20;
+  will-change: transform;
+
+  &:hover {
+    transform: translateY(0%);
+  } // footer:hover
+
+  &__btn {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: #727172 12px solid;
+    border-radius: 35px;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.4s ease;
+
+    &:hover {
+      border-color: #3a3a3a;
+    } // footer__btn hover
+  } // footer__btn
+
+  &__outer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #3a3a3a;
+  } // footer__outer
+
+  &__center {
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 0;
+
+    @include ipadportrait(){
+      padding: .7rem .5rem 0 .5rem;
+      font-size: .7rem;
+    }
+
+    @include breakpoint(mediumlarge) {
+      padding: .7rem .5rem;
+      font-size: .7rem;
+    }
+
+    @include breakpoint(extrasmall) {
+      padding: .7rem .7rem;
+    }
+  } // footer__center
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+  } // footer__copyright title
+
+  &__item {
+    .icon {
+      margin-bottom: 10px;
+    }
+    .icon-location {
+      color: #ee2b47;
+    }
+    .icon-mail {
+      color: #cbf078;
+    }
+    .icon-people {
+      color: #436fa4;
+    }
+  } //footer item
+
+  .footer__row {
+    .row__left {
+      
+      .left__wrapper {
+        @include breakpoint(extrasmall) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .footer__item {
+          @include breakpoint(extrasmall) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            
+            .icon {
+              flex: 0 1 20%;
+            }
+
+            .footer__info {
+              font-size: 0.8rem;
+              flex: 0 1 60%;
+            }
+
+          }
+        }// left wrapper item
+
+      }// left wrapper;
+
+    }// left column
+
+    .row__right {
+      
+      .right__wrapper {
+        /*@include ipadportrait() {
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+          justify-content: center;
+        }*/
+
+        .footer__item {
+          /*@include ipadportrait() {
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+          }*/
+        }// right footer item
+      }// right wrapper;
+    }// right column
+    
+  }// footer row
+
+  .bottom__copyright {
+    /*@include ipadportrait {
+      margin: 10px 0 0 0;
+      text-align: right;
+    }*/
+    p {
+      @include breakpoint(extrasmall) {
+        margin: 0;
+      }
+    }
+    
+  }
+} // footer

@@ -1,0 +1,21 @@
+Title: O nama
+
+----
+
+Intro: Terestrika d.o.o. za projektiranje, geodeziju i nadzor, ovlašteno je trgovačko društvo sa sjedištem u Splitu, Mosećka 103. Društvo je registrirano za obavljanje stručnih geodetskih poslova (djelatnosti) iz područja inženjerske geodezije, geodetsko-katastarskih poslova, fotogrametrije, stručnog nadzora te izrade nalaza i mišljenja stalnog sudskog vještaka za geodeziju, hidrografiju, praćenja pomaka itd. Terestrika d.o.o. posjeduje suvremenu geodetsku i informatičku opremu, programska rješenja i licence za korištenje softvera. Tvrtka upošljava stručne djelatnike sa dugogodišnjim iskustvom i znanjem iz svih područja djelatnosti.
+
+----
+
+Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+
+----
+
+Logo: logo_alle-11.jpg
+
+----
+
+Eulogo: 
+
+----
+
+Eutitle: Eu projekti

@@ -1,0 +1,30 @@
+.contact {
+  text-align: justify;
+  margin-bottom: 10rem;
+
+  .success__msg {
+    margin-top: 20px;
+    padding: 15px 10px;
+    font-size: .7rem;
+    color:rgb(50, 182, 67);
+  }
+
+  .form__submit {
+    position: absolute;
+    bottom: 0;
+    right: 1.5rem;
+
+    @include breakpoint(extrasmall) {
+      position: relative;
+      right: 0;
+      top: 10px;
+      text-align: right;
+    }
+  }
+
+  .columns {
+    @include breakpoint(extrasmall) {
+      flex-direction: column;
+    }
+  }
+}

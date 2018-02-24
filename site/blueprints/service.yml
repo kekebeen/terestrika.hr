@@ -1,0 +1,35 @@
+title: Service
+
+pages: false
+
+fields:
+  title:
+    label: Naslov
+    type:  title
+    
+  coverimage:
+    label: Mini slika
+    type: image
+    width: 1/2
+    
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+  
+  reference:
+    label: Text
+    type: textarea
+    validate: 
+      minLength: 1
+      maxLength: 120
+  
+  pictures:
+    label: Gallery
+    type: gallery
+    aspectRatio: 4:3

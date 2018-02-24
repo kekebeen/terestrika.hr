@@ -1,0 +1,29 @@
+Title: Terestrika.hr
+
+----
+
+Author: Benjamin Babic
+
+----
+
+Description: Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.
+
+----
+
+Copyright: © (date: Year) Copyright  Terestrika
+
+----
+
+Logolight: 
+
+----
+
+Logolightretina: 
+
+----
+
+Logodark: 
+
+----
+
+Logodarkretina: 

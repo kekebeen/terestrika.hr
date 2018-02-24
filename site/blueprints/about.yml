@@ -1,0 +1,18 @@
+title: About
+
+pages: false
+  
+fields:
+  title:
+    label: Title
+    type: title
+    
+  intro:
+    label: Intro
+    type: textarea
+  
+  eutitle:
+    label: Eu fond title
+    type: text
+    width: 1/2
+    

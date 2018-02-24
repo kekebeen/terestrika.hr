@@ -1,0 +1,35 @@
+Title: Inženjerska geodezija
+
+----
+
+Image: inzenjerska-geodezija.jpg
+
+----
+
+Date: 2017-12-17
+
+----
+
+Reference: Inzenjerska geodezija textkjojoj
+
+----
+
+Pictures: 
+
+- webp.net-resizeimage-3.jpg
+- webp.net-resizeimage-6.jpg
+- webp.net-resizeimage-7.jpg
+- webp.net-resizeimage.jpg
+- webp.net-resizeimage2.jpg
+
+----
+
+Coverimage: inzenjerska-geodezija.jpg
+
+----
+
+Slideshow: 
+
+- webp.net-resizeimage-10.jpg
+- webp.net-resizeimage-7.jpg
+- webp.net-resizeimage.jpg

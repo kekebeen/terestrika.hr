@@ -1,0 +1,36 @@
+title: Testimonials
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  first:
+    label: First reference
+    type: text
+    width: 1/2
+  
+  second:
+    label: Second reference
+    type: text
+    width: 1/2
+
+  third:
+    label: Third reference
+    type: text
+    width: 1/2
+    
+  fourth:
+    label: Fourth reference
+    type: text
+    width: 1/2
+
+  fifth:
+    label: Fifth reference
+    type: text
+    width: 1/2
+
+
+ 

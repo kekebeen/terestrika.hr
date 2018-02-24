@@ -1,0 +1,65 @@
+// Base
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $html-font-size;
+  line-height: $html-line-height;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $font-size;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: $link-color;
+  outline: none;
+  text-decoration: none;
+
+  &:focus {
+    @include control-shadow();
+  }
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    color: $link-color-dark;
+    text-decoration: underline;
+  }
+}
+
+// container
+.contenteiner {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  @include ipadportrait() { 
+    width: 100%;
+    padding: 0;
+  }
+  
+  @include breakpoint(mediumlarge) {
+    width: 100%;
+    padding: 0;
+  }
+}

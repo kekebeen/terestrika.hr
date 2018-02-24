@@ -1,0 +1,40 @@
+.about {
+  margin-top: 3rem;
+
+  &__content {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+} // about
+
+
+.eu__title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 200!important;
+}
+
+.eu__img {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 3rem;
+
+  .img__border {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}

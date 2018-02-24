@@ -1,0 +1,33 @@
+Title: Pocetna
+
+----
+
+Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+
+----
+
+Text: 
+
+----
+
+Heroimage: 20161021_090700555.jpg
+
+----
+
+Introheading: Terestrika d.o.o
+
+----
+
+Introsubheading: za projektiranje, geodeziju i nadzor
+
+----
+
+Introctatext: Learn more about me
+
+----
+
+Introctalink: about
+
+----
+
+Aboutus: Terestrika d.o.o. za projektiranje, geodeziju i nadzor, ovlašteno je trgovačko društvo sa sjedištem u Splitu, Mosećka 103. Društvo je registrirano za obavljanje stručnih geodetskih poslova (djelatnosti) iz područja inžinjerske geodezije, geodetsko-katastarskih poslova, stručnog nadzora te izrade nalaza i mišljenja stalnog sudskog vještaka za geodeziju, hidrografiju, praćenja pomaka itd. Terestrika d.o.o. posjeduje suvremenu geodetsku i informatičku opremu, programska rješenja i licence za korištenje softvera. Tvrtka upošljava stručne djelatnike sa dugogodišnjim iskustvom i znanjem iz svih područja djelatnosti.

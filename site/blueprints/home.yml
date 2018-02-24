@@ -1,0 +1,37 @@
+title: Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  hero:
+    label: Hero Settings
+    type: headline
+
+  heroimage:
+    label: Hero Image
+    type: image 
+
+  introheading:
+    label: Intro Heading
+    type: text
+
+  introsubheading: 
+    label: Intro Subheading
+    type: textarea
+
+  about:
+    label: About settings
+    type: headline
+
+  aboutus:
+    label: About us text
+    type: textarea
+  
+
+
+
+ 

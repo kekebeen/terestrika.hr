@@ -1,0 +1,104 @@
+$parallax-window-height: 30em;
+$parallax-background-height: $parallax-window-height * 2;
+
+.stats {
+  @include breakpoint(extrasmall) {
+    margin-bottom: 3rem;
+  }
+}//stats
+
+.parallax-window {
+  max-height: $parallax-window-height;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  @include breakpoint(extrasmall) {
+    max-height: none;
+  }
+}
+
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9;
+  
+  @include breakpoint(extrasmall) {
+    padding: 5rem 0;
+    flex-direction: column;
+  }
+}// parallax static content
+
+.parallax-background {
+  position: relative;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 140%;
+  background-color: beige;
+  height: $parallax-background-height;
+  left: 0;
+  position: absolute;
+  top: - $parallax-window-height / 3;
+  width: 100%;
+
+  @include breakpoint(extrasmall) {
+    min-height: 70em;
+    background-attachment: unset;
+    background-size: cover;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(#3a3a3a, 0.4);
+  }
+}
+
+//item
+.stats__items {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+  .stats__item {
+    z-index: 99;
+    color: white;
+
+    @include breakpoint(extrasmall) {
+      margin-bottom: 40px;
+    }
+
+    .item__icon {
+      margin-bottom: 10px;
+
+      svg {
+        width: 60px;
+        height: 60px;
+
+        path,
+        rect,
+        polygon {
+          fill: white;
+        }
+      }
+    }//item icon
+
+    .item__title {
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }// item title
+
+    .item__count {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }// item count
+  }//stats item
+}// stats items

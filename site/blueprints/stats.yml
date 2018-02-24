@@ -1,0 +1,29 @@
+title: Stats
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type: text
+    width: 2/2
+
+  factfirst:
+    label: Preplovljenih milja
+    type: text
+    width: 1/2
+  
+  factsecond:
+    label: Broj sati leta
+    type: text
+    width: 1/2
+  
+  factthird:
+    label: Povrsina premjerene zemlje
+    type: text
+    width: 1/2
+
+  factfourth:
+    label: Broj zavrsenih gradilista
+    type: text
+    width: 1/2

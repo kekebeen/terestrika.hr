@@ -1,0 +1,23 @@
+Title: Strucni nadzor
+
+----
+
+Image: strucni-nadzor.png
+
+----
+
+Date: 2017-12-17
+
+----
+
+Reference: Strucni nadzor slika
+
+----
+
+Pictures: 
+
+- strucni-nadzor.png
+
+----
+
+Coverimage: strucni-nadzor.png
