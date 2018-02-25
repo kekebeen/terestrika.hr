@@ -19,8 +19,7 @@
   ?>
 
   <div class="above-fold et-hero-tabs hero">
-		<div class="hero-section" id="hero__image">
-      <img src="<?= $image->url(); ?>" />
+		<div class="hero-section" id="hero__image" style="background-image:url(<?php echo $image->url() ?>)">
     </div>
     <div class="hero-content">
       <h1 id="hero__big"><?= $page->introheading()->html() ?></h1>

@@ -6,6 +6,22 @@
     letter-spacing: 1px;
     line-height: 28px;
   }
+
+  .tile-icon {
+    svg {
+      width: 50px;
+      height: 50px;
+      fill: #436fa4;
+    }
+  }// tile icon
+
+  .project__tiles {
+    padding: 0 4rem;
+
+    .tile-icon {
+      margin-right: 30px;
+    }
+  }
 } // about
 
 
@@ -24,17 +40,15 @@
   position: relative;
   margin-bottom: 3rem;
 
-  .img__border {
-    display: block;
-    width: 100%;
-    height: 15px;
-    background: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
+  padding: 2rem 4rem;
 
   img {
     object-fit: cover;
   }
+}
+
+.project__description {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 28px;
 }

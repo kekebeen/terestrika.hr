@@ -14,7 +14,7 @@ export default class Parallax {
 
   handleScrolling() {
     this.init(this.heroImage, 0);
-    this.init(this.heroBigTitle, 3);
+    this.init(this.heroBigTitle, 6);
     this.init(this.heroSmallTitle, -3);
   }
 
@@ -33,6 +33,6 @@ export default class Parallax {
   animateItem(el, displace) {
     if (typeof window.orientation !== 'undefined') { return; }
     let scrollPosition = this.setPosition();
-    el.style.transform = "translate3d(0px, "+(scrollPosition / displace)+"px, 0px)";
+    el.style.transform = "translate3d(0px, " +"-"+(scrollPosition / displace)+"px, 0px)";
   }
 }

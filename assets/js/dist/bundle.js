@@ -250,7 +250,7 @@ var Parallax = function () {
     key: 'handleScrolling',
     value: function handleScrolling() {
       this.init(this.heroImage, 0);
-      this.init(this.heroBigTitle, 3);
+      this.init(this.heroBigTitle, 6);
       this.init(this.heroSmallTitle, -3);
     }
   }, {
@@ -274,7 +274,7 @@ var Parallax = function () {
         return;
       }
       var scrollPosition = this.setPosition();
-      el.style.transform = "translate3d(0px, " + scrollPosition / displace + "px, 0px)";
+      el.style.transform = "translate3d(0px, " + "-" + scrollPosition / displace + "px, 0px)";
     }
   }]);
 

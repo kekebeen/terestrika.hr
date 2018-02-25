@@ -1,6 +1,8 @@
 <section class="et-slide contact" id="tab-contact">
-      <h1><?= $data->title()->tohtml() ?></h1>
       <div class="contenteiner">
+
+        <h1><?= $data->title()->tohtml() ?></h1>
+
         <form action="<?php echo $page->url() ?>" method="POST">
         <?php echo csrf_field(); ?>
         <?php echo honeypot_field(); ?>

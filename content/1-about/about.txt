@@ -19,3 +19,33 @@ Eulogo:
 ----
 
 Eutitle: Eu projekti
+
+----
+
+Project-stat-first: Implementacija sofisticiranih IKT rješenja kao odgovor na zahtjeve otvorenog tržišta
+
+----
+
+Project-stat-second: 680.416,25 kn
+
+----
+
+Project-stat-third: 476.482,37 kn
+
+----
+
+Project-description: 
+
+Projekt „Implementacija sofisticiranih IKT rješenja kao odgovor na zahtjeve otvorenog tržišta“ usmjeren je na poboljšanje tržišnog položaja Ureda i povećanje konkurentnosti i učinkovitosti poslovanja implementacijom sofisticiranih IKT rješenja. Opći cilj projekta je povećanje konkurentnosti na tržištu. Provedbom projekta se povećava produktivnost Ureda, s obzirom da posjedovanje sofisticirane IKT opreme osigurava kvalitetno i pravovremeno ispostavljanje ugovorenih usluga, omogućava konkurentnost poduzeća na natječajima za izgradnju i/ili rekonstrukciju većih infrastrukturnih projekata te povećava sveukupne kapacitete Ureda za pružanje konkurentnih, visokokvalitetnih usluga uporabom sofisticiranih IKT rješenja.
+
+Ovaj projekt predstavlja ulaganje u geodetsku struku, koja je od presudne važnosti za sva područja ljudske djelatnosti koja su na bilo koji način vezana uz prostor, informacije o prostoru ili prostorne informacije. Samo geodeti imaju stručno znanje i ovlaštenje da to elaboriraju i unesu u službene evidencije. Sređivanje službenih evidencija, osobito imovinskopravnih, neophodno je za daljnji razvoj poduzetništva i poduzetničke klime te pristup strukturnim fondovima za regionalni razvoj, a to je nepobitan razlog zašto je vrijedno ulagati EU sredstva u ovaj projekt.
+
+**Projektom se nabavlja slijedeća oprema**:
+
+Bespilotna letjelica – dron,
+softver za obradu fotogrametrijskih snimaka,
+komplet Baza/Rover s DUHF-om,
+CAD softver
+programski paket za uredsku obradu podataka
+
+Projekt je napisan, prijavljen te se provodi uz stručnu pomoć konzultantske tvrtke TEMPO savjetovanje j.d.o.o. iz Požege (http://www.temposavjetovanje.hr)

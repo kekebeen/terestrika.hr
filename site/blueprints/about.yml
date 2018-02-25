@@ -4,7 +4,7 @@ pages: false
   
 fields:
   title:
-    label: Title
+    label: Naslov
     type: title
     
   intro:
@@ -12,7 +12,23 @@ fields:
     type: textarea
   
   eutitle:
-    label: Eu fond title
+    label: Eu fond naslov
     type: text
     width: 1/2
+  project_stat_first:
+    label: Naziv projekta
+    type: text
+    width: 1/2
+  project_stat_second:
+    label: Ukupna vrijednost projekta
+    type: text
+    width: 1/2
+  project_stat_third:
+    label: Iznos sufinanciranja
+    type: text
+    width: 1/2
+  project_description:
+    label: Projekat intro
+    type: textarea
+    width: 2/2
     
